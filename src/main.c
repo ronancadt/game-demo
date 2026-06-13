@@ -1,7 +1,7 @@
-#include "src/logic/game.h"
+#include "logic/game.h"
 
 int main() { 
     
     Hero h;
-    moveHero(&h);
+    moveHero(&h, 4, 5);
 }

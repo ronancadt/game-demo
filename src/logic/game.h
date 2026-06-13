@@ -17,7 +17,7 @@ typedef struct {
     int y;
 } Hero;
 
-void moveHero(Hero* hero);
+void moveHero(Hero* hero, int dx, int dy);
 
 
 #endif

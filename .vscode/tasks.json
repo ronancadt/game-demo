@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build C project",
+      "type": "shell",
+      "command": "gcc",
+      "args": ["src/main.c", "src/logic/game.c", "-o", "app.exe"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
